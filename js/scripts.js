@@ -2,7 +2,7 @@ var finalOutput = function(userInput) {
   for (var index = 0; index <= userInput; index += 1) {
   alert(index);
   }
-
+  
 };
 
 

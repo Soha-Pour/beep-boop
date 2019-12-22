@@ -20,27 +20,27 @@ Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, 
 
 
 * Spec: The program returns "beep" for all digits containing a 1
-  *  Input: "4"
+  * Input: "4"
   * Output: "0, "beep", 2, 3, 4"
 
 
 * Spec: The program returns "boop" for all digits containing a 2
-  *  Input: "4"
+  * Input: "4"
   * Output: "0, "beep", "boop", 3, 4"  
 
 
 * Spec: The program returns "I'm sorry, I can't compute that" for all digits containing a 3
-  *  Input: "4"
+  * Input: "4"
   * Output: "0, "beep", "boop", "I'm sorry, I can't compute that", 4"  
 
 
 * Spec: The program returns "boop" for all digits containing a 1 and a 2
-  *  Input: "12"
+  * Input: "12"
   * Output: "boop"
 
 
 * Spec: The program returns "I'm sorry, I can't compute that" for all digits containing a 3 in addition to a 1 or 2
-  *  Input: "13"
+  * Input: "13"
   * Output: "I'm sorry, I can't compute that"
 
 
