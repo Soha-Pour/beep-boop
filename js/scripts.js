@@ -1,16 +1,20 @@
 var finalOutput = function(userInput) {
-  for (var index = 0; index <= userInput; index += 1) {
+  for (var index = 0; index <= userInput; index++) {
+    var indexArr = JSON.stringify(index).split('');
     var ansArr = [];
-    console.log(index);
-      if (index === 1) {
-        console.log("Beep");
-      } else if (index === 2) {
+    console.log(indexArr);
+      if ((indexArr.includes("1")) && (indexArr.includes("2"))) {
         console.log("Boop");
-      } else if (index ===3) {
+      } else if (indexArr.includes("3")) {
         console.log("I'm sorry, I can't compute that");
+      } else if (indexArr.includes("1")) {
+          console.log("Beep");
+      } else if ((indexArr.includes("2")) && (indexArr.includes("3"))) {
+        console.log("I'm sorry, I can't compute that");
+      } else if (indexArr.includes("2")) {
+        console.log("Boop");
       }
     }
-
   };
 
 
