@@ -29,9 +29,9 @@ Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, 
   * Output: "0, "beep", "boop", 3, 4"  
 
 
-* Spec: The program returns "I'm sorry, I can't compute that" for all digits containing a 3
+* Spec: The program returns "I'm sorry, I can't do that" for all digits containing a 3
   * Input: "4"
-  * Output: "0, "beep", "boop", "I'm sorry, I can't compute that", 4"  
+  * Output: "0, "beep", "boop", "I'm sorry, I can't do that", 4"  
 
 
 * Spec: The program returns "boop" for all digits containing a 1 and a 2
@@ -39,7 +39,7 @@ Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, 
   * Output: "boop"
 
 
-* Spec: The program returns "I'm sorry, I can't compute that" for all digits containing a 3 in addition to a 1 or 2
+* Spec: The program returns "I'm sorry, I can't do that" for all digits containing a 3 in addition to a 1 or 2
   * Input: "13"
   * Output: "I'm sorry, I can't compute that"
 
