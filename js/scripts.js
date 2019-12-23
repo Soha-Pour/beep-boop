@@ -1,18 +1,23 @@
+var ansArr = [""];
 var finalOutput = function(userInput) {
   for (var index = 0; index <= userInput; index++) {
     var indexArr = JSON.stringify(index).split('');
-    var ansArr = [];
     console.log(indexArr);
       if ((indexArr.includes("1")) && (indexArr.includes("2"))) {
-        console.log("Boop");
+        ansArr.push("Beep");
+        // console.log("Boop");
       } else if (indexArr.includes("3")) {
-        console.log("I'm sorry, I can't compute that");
+        ansArr.push("I'm sorry, I can't compute that");
+        // console.log("I'm sorry, I can't compute that");
       } else if (indexArr.includes("1")) {
-          console.log("Beep");
+        ansArr.push("Beep");
+        // console.log("Beep");
       } else if ((indexArr.includes("2")) && (indexArr.includes("3"))) {
-        console.log("I'm sorry, I can't compute that");
+        ansArr.push("I'm sorry, I can't compute that");
+        // console.log("I'm sorry, I can't compute that");
       } else if (indexArr.includes("2")) {
-        console.log("Boop");
+        ansArr.push("Boop");
+        // console.log("Boop");
       }
     }
   };
@@ -27,6 +32,7 @@ $(document).ready(function() {
 
     var userInput = $("#user-input").val();
     var output = finalOutput(userInput);
-    // console.log(userInput);
+    alert(ansArr);
+
   });
 });
