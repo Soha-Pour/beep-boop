@@ -21,6 +21,7 @@ var finalOutput = function(userInput) {
       } else {
         ansArr.push(" " + index);
       }
+      
     }
   };
 
