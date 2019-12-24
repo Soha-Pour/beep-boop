@@ -21,21 +21,22 @@ var finalOutput = function(userInput) {
       } else {
         ansArr.push(" " + index);
       }
-
     }
   };
 
 
 $(document).ready(function() {
+
   $("form#blanks").submit(function(event) {
     event.preventDefault();
+    ansArr = [""];
 
     var userInput = $("#user-input").val();
     var output = finalOutput(userInput);
     $(".output").text(ansArr);
-    $("#user-input").val("");
-
-
 
   });
+
+
+
 });
